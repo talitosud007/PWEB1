@@ -1,2 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Exemplo Completo de HTML</title>
+</head>
+<body>
 
-xcvbxcvb
+<h1>Exemplo de HTML</h1>
+<h2>Introdução ao HTML</h2> 
+<p>HTML, que significa Linguagem de Marcação de Hipertexto, é um formato utilizado para desenvolver e organizar conteúdos na web.</p>
+
+<ol>
+    <li>Neste espaço, você aprenderá a trabalhar com HTML e como fazer a interpretação de seus códigos.</li>
+    <li>Praticando HTML.</li>
+    <li>Abrangendo as diferentes partes do HTML.</li>
+    <li>Encerramento.</li>
+</ol>
+
+<p>Aqui, você discutirá os tópicos mencionados anteriormente. 
+<b>Este trecho deve aparecer em estilo negrito.</b>
+<i>Você em breve se tornará habilidoso em HTML.</i></p>
+
+<h3>Título do Segundo Tópico</h3>
+<p>Texto... referente ao que foi discutido no segundo tópico. <i>Frase em itálico.</i>
+<b>Continuação do texto.</b></p>
+
+<h3>Outro Tópico Abordado Anteriormente</h3>
+<p>Vamos tratar deste assunto.
+<b>Texto em negrito,</b> seguindo com a explicação.</p>
+
+<h3>Encerramento</h3>
+<p>Finalizando a discussão <i>com um texto em itálico.</i> <b>Texto em negrito,</b> e desta forma concluímos.</p>
+
+<blockquote> "Até mais pessoal"</blockquote>
+<a href="/sobre.html">Fim da página</a><br>
+<a href="#secao1">Retornar ao Início</a>
+
+</body>
+</html>
