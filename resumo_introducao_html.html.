@@ -1,40 +1,86 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Exemplo de um documento HTML com principais marcações para o corpo.">
+    <meta name="author" content="Nome do Autor">
     <title>Exemplo Completo de HTML</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 
-<h1>Exemplo de HTML</h1>
-<h2>Introdução ao HTML</h2> 
-<p>HTML, que significa Linguagem de Marcação de Hipertexto, é um formato utilizado para desenvolver e organizar conteúdos na web.</p>
+<!-- Títulos de diferentes níveis -->
+<h1>Título Principal</h1> <!-- Título principal da página -->
+<h2>Introdução ao HTML</h2> <!-- Novo subtítulo -->
+<p>Neste documento, exploramos as principais marcações utilizadas em um documento HTML.</p> <!-- Novo parágrafo -->
 
+<h2>Subtítulo</h2> <!-- Subtítulo que divide o conteúdo -->
+<h3>Subsubtítulo</h3> <!-- Título de nível inferior para subseções -->
+
+<!-- Parágrafos -->
+<p>Este é um parágrafo que contém algum texto explicativo
+sobre o conteúdo da página. Aqui podemos inserir várias
+informações que são relevantes para o usuário. Este é um <b>texto importante sobre HTML</b> e <i>é dificil de aprender</i>.</p>
+
+<!-- Lista não ordenada -->
+<ul>
+    <li>Item 1 da lista não ordenada</li>
+    <li>Item 2 da lista não ordenada</li>
+    <li>Item 3 da lista não ordenada</li>
+</ul>
+
+<!-- Lista ordenada -->
 <ol>
-    <li>Neste espaço, você aprenderá a trabalhar com HTML e como fazer a interpretação de seus códigos.</li>
-    <li>Praticando HTML.</li>
-    <li>Abrangendo as diferentes partes do HTML.</li>
-    <li>Encerramento.</li>
+    <li>Primeiro item da lista ordenada</li>
+    <li>Segundo item da lista ordenada</li>
+    <li>Terceiro item da lista ordenada</li>
+    <li>Quarto item da lista ordenada</li> <!-- Novo item -->
 </ol>
 
-<p>Aqui, você discutirá os tópicos mencionados anteriormente. 
-<b>Este trecho deve aparecer em estilo negrito.</b>
-<i>Você em breve se tornará habilidoso em HTML.</i></p>
+<!-- Links -->
+<p>Visite o <a href="https://www.exemplo.com">nosso site</a>
+para mais informações.</p>
+<p>Envie um e-mail para <a href="mailto:contato@exemplo.com">
+nosso contato</a>.</p>
+<p><a href="#secao1">Ir para a Seção 1</a> nesta mesma
+página.</p>
+<p><a href="#fim">Ir para o final da página</a></p> <!-- Novo link interno -->
 
-<h3>Título do Segundo Tópico</h3>
-<p>Texto referente ao que foi discutido no segundo tópico. <i>itálico.</i>
-<b>Continuação do texto.</b></p>
+<!-- Comentário em HTML -->
+<!-- Este é um comentário que não será exibido na página -->
 
-<h3>Outro Tópico Abordado Anteriormente</h3>
-<p>Vamos tratar deste assunto.
-<b>Texto em negrito,</b> seguindo com a explicação.</p>
+<!-- Itálico, Negrito, Sublinhado, Ênfase, Importância -->
+<p>Este é um <i>texto em itálico</i>, <b>negrito</b>,
+<u>sublinhado</u>, <em>com ênfase</em>, e
+<strong>importante</strong>.</p>
 
-<h3>Encerramento</h3>
-<p>Finalizando a discussão <i>com um texto em itálico.</i> <b>Texto em negrito,</b> e desta forma concluímos.</p>
+<!-- Citação em bloco (Blockquotes) -->
+<blockquote>
+    "A vida não é um problema a ser resolvido, mas uma realidade a ser experimentada." - Soren Kierkegaard <!-- Nova citação -->
+</blockquote>
 
-<blockquote> "Até mais pessoal"</blockquote>
-<a href="/sobre.html">Fim da página</a><br>
-<a href="#secao1">Retornar ao Início</a>
+<!-- Sobrescrito e subscrito -->
+<p>A fórmula química da água é H<sub>2</sub>O, e
+E = mc<sup>2</sup> é a famosa equação
+de Einstein.</p>
+
+<!-- Apresentando código-fonte -->
+<pre>
+<code>
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
+</code>
+</pre>
+
+<!-- Horários e Datas -->
+<p>Este evento acontecerá em <time datetime="2024-08-27">
+    27 de Agosto de 2024</time>.</p>
+
+<!-- Âncora para o final da página -->
+<div id="fim"></div>
 
 </body>
 </html>
-
