@@ -1,8 +1,130 @@
-* {
-    margin: 0;
-    padding: 0
+body {
+    background-color: rgb(132, 173, 212);
 }
 
-table, th,td {
-    border: 1px solid;
+p,
+h1,
+h2,
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1.tituloPrincipal {
+    text-align: center;
+    color: white;
+    background-color: hsla(219, 49%, 42%, 0.5);
+    border: solid hsla(221, 49%, 42%, 0.5);
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+form {
+    margin: 40px;
+}
+
+div.linhadebaixo {
+    border-bottom: solid 2px darkblue;
+    width: 100%;
+}
+
+div.menu {
+    height: 80px;
+    background-color: hsla(219, 49%, 42%, 0.5);
+}
+
+div.rodape{
+    position:fixed;
+    bottom: 0px;
+    right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    background-color: hsla(219, 49%, 42%, 0.5);
+    width: 100%
+}
+
+button.menu {
+    color: blue;
+    background-color: white;
+    position: relative;
+    left: 1300px;
+    width: 150px;
+    /* largura */
+    height: 50px;
+    /* altura */
+    font-size: 16px;
+    /* tamanho do texto */
+    padding: 10px;
+    /* espaçamento interno */
+    margin: 20px;
+}
+
+button.menu:hover {
+    color: white;
+    background-color: blue;
+}
+
+div#top {
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    background-color: blue;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color:rgb(255, 255, 255);
+    background-color:rgb(38, 148, 142);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.topo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6rem;
+}
+img{
+    width: 350px;
+    height: 160px;
+}
+
+
+img.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: solid hsla(204, 49%, 42%, 0.5) 2px;
+    border-radius: 5px;
+}
+
+.down{
+    position: fixed;
+    bottom: 1px;
+    background-color: black; 
+    width: 100%;
+}
+
+.down p{
+    text-align: center;
+}
+
+.cadastro label{
+    font-size: 45px;
+}
+
+.cadastro input{
+    width: 710px;
+    height: 50px;
 }
